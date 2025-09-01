@@ -104,5 +104,5 @@ Contributions, bug reports, and feature requests are welcome! Please open an iss
 
 ## 📞 Contact
 
-Bathini Venkata Tejasri — venkatatejasribathini@gmail.com  
-Project link: https://github.com/TEJASRI-44/deepfake-detection-project-full
+Pasupula Nandini— nandinipasupula004@gmail.com  
+Project link: https://github.com/NandiniPasupula/DeepFake_Detection
