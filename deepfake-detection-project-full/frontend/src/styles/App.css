@@ -1,0 +1,118 @@
+/* App.css */
+
+/* General Reset and Base Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f6fc;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #0e1a40;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-right: 10px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-links li:hover {
+  transform: scale(1.1);
+}
+
+/* Home Page Styling */
+.App {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.faux-text {
+  color: #0e84ff;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.option-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 25px;
+  width: 280px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+.option-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.option-icon {
+  font-size: 40px;
+  color: #0e84ff;
+  margin-bottom: 15px;
+}
+
+.option-card h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.option-card p {
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .options-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .option-card {
+    width: 90%;
+  }
+}
